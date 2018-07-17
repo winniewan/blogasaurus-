@@ -1,0 +1,46 @@
+*{ /* this is a reset, it takes away all margin and padding from all elements of the page */
+  margin:0;
+  padding:0;
+}
+body {
+  font-family: Arial, "Helvetica Neue",sans-serif;
+  font-size:20px;
+  color:pink;
+  line-height: 1.6;
+}
+
+#beginning {
+  color: pink;
+  background-image: url("https://images.pexels.com/photos/674268/pexels-photo-674268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+  display:flex; /*puts everything here into a container and puts everything across (horizontally)*/
+  flex-direction: column;
+  justify-content: center; /* it moves the flex container into the middle */
+  align-items: center; /* this would be right in center of page */
+  text-align: center;
+  padding: 0 20px; /* zero top and bottom and 20 left and right */
+}
+
+#beginning h1 {
+  font-size: 80px;
+  line-height: 1.2;
+}
+
+#beginning .button {
+  font-size: 20px;
+  text-decoration: none;
+  color: pink;
+  border: 1px solid;
+  padding: 10px 20px; /* 10px top and bottom 20px left and right */
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  float: left;
+}
+
+#beginning .button:hover {
+  background-color: pink;
+  color: white;
+}
